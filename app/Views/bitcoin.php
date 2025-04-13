@@ -7,7 +7,7 @@
 
 <?php if ($price): ?>
     <div class="alert alert-success mt-4">
-        Current BTC price (USD): <strong>$<?= htmlspecialchars($price) ?></strong>
+        Current BTC price (USD): <strong><?= htmlspecialchars($price) ?></strong>
     </div>
 <?php endif; ?>
 
